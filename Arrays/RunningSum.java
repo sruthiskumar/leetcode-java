@@ -6,7 +6,7 @@
  * Output: [1,3,6,10]
  * Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].
  */
- class RunningSum {
+ class 1480.RunningSum {
     public int[] runningSum(int[] nums) {
         int length = nums.length;
         for(int i = 1; i < length; i++) {
